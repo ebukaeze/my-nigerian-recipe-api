@@ -1,0 +1,17 @@
+{
+  "name": "my-api",
+  "version": "1.0.0",
+  "description": "this is an api which produces news from multiple sources",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+    
+  },
+  "author": "Ebuka Victor",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+     "axios": "1.19.0"
+  }
+}
